@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 20px;
+}
+
+.board {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: 100vh;
+  padding: 10px;
+  border: 2px solid grey;
+}
+
+.card {
+  display: none;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+
+.card__title {
+  padding: 10px;
+}
+
+.card__desc {
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}

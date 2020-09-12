@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <p>
+        <label>
+          <input id="inputTitle" type="text" placeholder="title" size="40" />
+        </label>
+      </p>
+      <p>
+        <label>
+          <input
+            id="inputDescription"
+            type="text"
+            placeholder="description"
+            size="40"
+          />
+        </label>
+      </p>
+      <p><button type="button" id="btn">Submit</button></p>
+    </form>
+    <div class="board">
+      <div class="card">
+        <div class="card__title"></div>
+        <div class="card__desc"></div>
+        <div class="buttons">
+          <button type="button" id="deleteBtn">Delete</button>
+          <button type="button" id="editBtn">Edit</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

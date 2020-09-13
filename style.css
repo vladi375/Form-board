@@ -10,28 +10,24 @@
 }
 
 .board {
-  display: block;
+  display: none;
   margin: 0 auto;
   width: 40%;
-  height: 100vh;
+  height: auto;
   padding: 10px;
   border: 2px solid grey;
 }
 
 .card {
-  display: none;
-  margin: 0 auto;
+  display: block;
+  margin: 20px auto;
   width: 70%;
   height: auto;
   border: 2px solid black;
   background-color: lightgray;
 }
 
-.card__title {
-  padding: 10px;
-}
-
-.card__desc {
+.card__info {
   padding: 10px;
 }
 
